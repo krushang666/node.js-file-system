@@ -4,7 +4,10 @@ const rl=readline.Interface({
     input:process.stdin,
     output:process.stdout
 });
-user_input();
+
+
+
+/*----------------User Input Function-----------------*/
 function user_input(){
     console.log("\n1.Create Directory");
     console.log("2.Delete Directory");
@@ -133,3 +136,8 @@ function user_input(){
         }
     });
 }
+
+
+
+
+user_input();
