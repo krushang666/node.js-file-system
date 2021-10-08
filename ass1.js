@@ -94,7 +94,7 @@ function user_input(){
                     fs.readFile(name,function(err,data){
                         if(err)
                             console.error("\nFile Does Not Exists");
-                        else    
+                        else{    
                             var temp=data.toString().split(' ');
                             for(var i=0;i<temp.length;i++){
                                 if(temp[i]==fd){
@@ -114,7 +114,8 @@ function user_input(){
                                     break;
                                 }
                             }
-                        });
+                         }
+                      });
                 });
             });
         }else if(ch==8){
